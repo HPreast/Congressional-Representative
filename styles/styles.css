@@ -1,13 +1,60 @@
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+    display: flex;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 0px;
+    width: 200px;
+    max-width: 100%;
     height: auto;
   }
 
 h1 {
     font-size: 50px;
     text-align: center;
+    background-color: whitesmoke;
+    border: 5px solid maroon;
 }
 
+.info {
+display: flex;
+justify-content: center;
+border: 5px solid maroon;
+padding: 15px;
+background-color: whitesmoke;
+}
+
+.affiliation {
+  display: flex;
+  justify-content: center;
+  border: 5px solid maroon;
+  background-color: whitesmoke;
+}
+
+.committees {
+  display: flex;
+  justify-content: center;
+  border: 5px solid maroon;
+  background-color: whitesmoke;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  border: 5px solid maroon;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+  margin-bottom: 0px;
+}
+
+.all {
+  background-color: navy;
+}
+
+.basic {
+  background-color: whitesmoke;
+}
+
+.image {
+  background-color: navy;
+  margin-top: 0px;
+}
